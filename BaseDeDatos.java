@@ -40,5 +40,13 @@ public class BaseDeDatos {
 		return contraseña;
 		
 	}
+	public void ingresarBaseDeDatos(String usuario,String Contraseña) {
+	
+		ArrayList <String>usuario1=new ArrayList<String>();
+		usuario1.add(usuario);
+		ArrayList <String>contraseña=new ArrayList<String>();
+		contraseña.add(Contraseña);
+	}
+	
 	
 }
