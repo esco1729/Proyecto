@@ -110,8 +110,7 @@ public class InterfazDeUsuarioContraseña extends JFrame {
 		btnRegistrarse.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				inicio.setUsuario(txtUsuario.getText());
-				inicio.setContraseña(Contraseña.getText());
+				inicio.ingresarBaseDeDatos(txtUsuario.getText(), Contraseña.getText());
 				
 			}
 			
